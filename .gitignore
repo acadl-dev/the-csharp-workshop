@@ -1,0 +1,24 @@
+# Ignorar pastas de build do .NET
+bin/
+obj/
+
+# Ignorar arquivos temporários do Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignorar cache e temporários
+*.tmp
+*.log
+*.vs/
+
+# Ignorar pacotes NuGet restaurados
+*.nupkg
+packages/
+
+# Ignorar arquivos de publicação
+publish/
+
+# Ignorar arquivos de backup
+*~
