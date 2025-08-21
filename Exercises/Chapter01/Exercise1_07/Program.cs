@@ -11,15 +11,11 @@ var aBernese = new Bernese() { Name = "Aspen" };
 var anotherBernese = new Bernese() { Name = "Aspen" };
 
 var goldenComparison = aGolden.Equals(anotherGolden) ? "These Golden Retrievers have the same name." : "These Goldens have different names.";
-
 var borderComparison = aBorder.Equals(anotherBorder) ? "These Border Collies have the same name." : "These Border Collies have different names.";
-
 var berneseComparison = aBernese.Equals(anotherBernese) ? "These Bernese dogs have the same name." : "These Bernese dogs have different names.";
 
 Console.WriteLine(goldenComparison);
-
 Console.WriteLine(borderComparison);
-
 Console.WriteLine(berneseComparison);
 
 struct GoldenRetriever
